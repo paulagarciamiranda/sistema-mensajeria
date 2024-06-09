@@ -1,0 +1,173 @@
+* {
+  margin: 0px;
+}
+
+
+
+ul {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.padre {
+  display: flex;
+  min-width: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #e8ebe4;
+}
+
+menu {
+  margin: 0px;
+  padding-left: 0px;
+  width: 350px;
+  border-right: 2px solid #e8ebe4;
+  box-shadow: 1px 1px 5px 0px #e8ebe4;
+  min-height: 100vh;
+}
+
+.perfil {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  width: 150px;
+}
+
+.perfil img {
+  width: 25%;
+  border-radius: 50%;
+  margin-left: 16px;
+}
+
+.perfil div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.perfil h4 {
+  font-weight: 400;
+  font-size: large;
+  padding-left: 2px;
+}
+
+.perfil p {
+  font-weight: 300;
+  font-size: small;
+  color: #bec1bb;
+}
+
+.iconos {
+  display: flex;
+  gap: 16px;
+  color: #828485;
+  font-size: x-large;
+  padding: 8px 16px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-bottom: 2px solid #e8ebe4;
+}
+
+.btn button {
+  color: white;
+  background-color: #a491d2;
+  font-size: large;
+  border: none;
+  height: 50px;
+  width: 250px;
+}
+
+.btn button:hover {
+  background-color: #cdc3e6
+}
+
+ul {
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.contacto {
+  display: flex;
+  gap: 16px;
+  padding: 16px 24px;
+  border-bottom: 2px solid #e8ebe4;
+}
+
+.contacto img {
+  width: 20%;
+  border-radius: 50%;
+  margin-left: 8px;
+}
+
+.contacto div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.contacto h4 {
+  font-size: large;
+  font-weight: 400;
+}
+
+.contacto p {
+  font-size: medium;
+  font-weight: 400;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 1;
+  margin: 200px;
+  width: 100vh;
+}
+
+.logo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  width: 100vh;
+  text-align: center;
+}
+
+.logo img {
+  width: 300px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.logo h1 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: roboto;
+}
+
+.logo p{
+  width: 550px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: 350;
+  font-stretch: expanded;
+  padding: 8px;
+}
